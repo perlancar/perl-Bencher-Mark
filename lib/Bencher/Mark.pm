@@ -1,3 +1,5 @@
+## no critic: InputOutput::RequireEncodingWithUTF8Layer
+
 package Bencher::Mark;
 
 # DATE
@@ -90,6 +92,15 @@ B<EXPERIMENTAL.>
 This is an experiment to make writing benchmarks using L<Bencher> easier. This
 module offers an interface like L<Benchmark>.pm, but internally it constructs a
 scenario, feeds it to L<Bencher::Backend>, then displays the formatted result.
+
+
+=head1 FUNCTIONS
+
+=head2 timethis
+
+=head2 timethese
+
+=head2 cmpthese
 
 
 =head1 SEE ALSO
